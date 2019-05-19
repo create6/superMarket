@@ -1,0 +1,9 @@
+加多一个判断，相同产品，数量相加
+
+  # 加入清单字典，以商品为键，以订单类Order为值，加入一个判断【加多一个判断，相同产品，数量相加】
+                if c_product in self.prod_dict.keys():
+                    c_num += self.prod_dict[c_product].p_num
+
+                # 产品出现过与未出现过都要执行：
+                c_order = Order(c_product, c_price, product_num, c_num)
+                self.prod_dict[c_product] = c_order

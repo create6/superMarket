@@ -1,0 +1,5 @@
+{'phone': '189', 'name': '二狗', 'points': '12'}
+{'phone': '18520395753', 'name': '波', 'points': '0'}
+{'phone': '13535078230', 'name': '李蛋', 'points': '0'}
+{'phone': '15900001', 'name': '应浩', 'points': '9000'}
+{'phone': '123444', 'name': '吉生', 'points': '1200'}
