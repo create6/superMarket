@@ -1,6 +1,6 @@
 '''策略'''
 
-from superMarket.vip_sys import VipSys
+from vip_sys import VipSys
 class Strategies(object):
     # 满减
     def c_minus(self,sum_price,count):  # 数量与总价方面都可以写进去

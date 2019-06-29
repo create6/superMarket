@@ -2,9 +2,9 @@
 调用策略类，调用会员系统
 【订单号】
 '''
-from superMarket.produce import Order
-from superMarket.strategy import Strategies
-from superMarket.repertory_manager_sys import RepertoryMS
+from produce import Order
+from strategy import Strategies
+from repertory_manager_sys import RepertoryMS
 
 class OrderManager(object):
     def __init__(self):

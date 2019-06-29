@@ -2,7 +2,7 @@
 权限：产品数量进行管理
 '''
 # 导入产品类中的Produces类
-from superMarket.produce import Produces
+from produce import Produces
 
 class RepertoryMS():
     def __init__(self):

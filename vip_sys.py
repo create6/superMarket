@@ -1,6 +1,17 @@
 '''会员管理系统
+#-*- coding : utf-8 -*-
+
 '''
-from superMarket.member_vip import Vip
+
+# coding: utf-8
+
+from member_vip import Vip
+import pymysql
+
+conn1 = pymysql.connect(host="localhost", port=3306, user="root",password="mysql",
+                        database="superMarket",charset="utf8")
+
+
 
 class VipSys(object):
 
@@ -15,7 +26,8 @@ class VipSys(object):
 
     # 启动
     def start(self):
-        self.load_data()
+        # 自动加载数据,由于数据来源改为mysql先不使用自动加载数据功能
+        # self.load_data()
         while True:
             self.print_menu()
             self.select_menu()
@@ -37,6 +49,7 @@ class VipSys(object):
     # 加载数据
     def load_data(self):
         file = open('vip_list.txt', 'r')
+        # file = open('vip_list.txt', 'rb')
         str_vip = file.readlines()
         # 加入到会员字典
         for each in str_vip:
@@ -49,10 +62,24 @@ class VipSys(object):
 
     # 1-添加会员
     def add_new_vip(self):
-        v_name = input('请输入会员姓名:')
-        v_phone = input('请输入手机号:')
-        self.vip_dict[v_phone] = Vip(v_phone,v_name,'0') # 会员初始积分为0分，积分数据类型 int
-        self.save_file()
+        name = input('请输入会员姓名:')
+        phone = input('请输入手机号:')
+        points = 0 #default 0
+        print(phone)
+        # 数据库操作1：新增：
+        cs = conn1.cursor()
+        sql = "insert into vip_list(name,phone,points) values (\'%s\',\'%s\',%d);" % (name, phone, points)
+        print('slq:%s'%sql)
+        cs.execute(sql)
+        conn1.commit()  #提交
+        # data = cs.fetchall()  # 是一个元组
+        cs.close()
+        conn1.close()
+        # print(data)
+
+
+        # self.vip_dict[v_phone] = Vip(v_phone,v_name,'0') # 会员初始积分为0分，积分数据类型 int
+        # self.save_file()
 
     # 2-查看所有会员
     def view_all(self):
@@ -126,3 +153,7 @@ class VipSys(object):
         self.save_file()
         print('退出系统')
         exit(0)
+
+if __name__ == '__main__':
+    # VipSys().start()
+    VipSys().add_new_vip()
