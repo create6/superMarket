@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6bec0e0-c611-4ded-af75-61f5f36bef11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order_manager_sys.py" afterPath="$PROJECT_DIR$/order_manager_sys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repertory_manager_sys.py" afterPath="$PROJECT_DIR$/repertory_manager_sys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategy.py" afterPath="$PROJECT_DIR$/strategy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vip_list.txt" afterPath="$PROJECT_DIR$/vip_list.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vip_sys.py" afterPath="$PROJECT_DIR$/vip_sys.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/superMarket$vip_sys.coverage" NAME="vip_sys Coverage Results" MODIFIED="1561794543265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/superMarket$vip_sys.coverage" NAME="vip_sys Coverage Results" MODIFIED="1561799020448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superMarket$main.coverage" NAME="main Coverage Results" MODIFIED="1561778693842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -25,80 +23,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#72#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="vip_sys.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vip_sys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="203">
+              <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
               <folding>
                 <element signature="e#57#83#0" expanded="true" />
-                <element signature="e#304#607#0" expanded="false" />
-                <element signature="e#321#572#0" expanded="false" />
-                <element signature="e#1360#1507#0" expanded="false" />
-                <element signature="e#2523#2669#0" expanded="false" />
-                <element signature="e#2730#2900#0" expanded="false" />
-                <element signature="e#2946#3261#0" expanded="false" />
-                <element signature="e#3032#3215#0" expanded="false" />
-                <element signature="e#3311#3594#0" expanded="false" />
-                <element signature="e#3397#3548#0" expanded="false" />
-                <element signature="e#3670#3761#0" expanded="false" />
-                <element signature="e#3807#4113#0" expanded="false" />
-                <element signature="e#3895#4091#0" expanded="false" />
-                <element signature="e#4157#4211#0" expanded="false" />
-                <marker date="1561794716938" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+                <element signature="e#1189#1528#0" expanded="false" />
+                <element signature="e#4452#4735#0" expanded="false" />
+                <element signature="e#4538#4689#0" expanded="false" />
+                <element signature="e#4811#4902#0" expanded="false" />
+                <element signature="e#4948#5254#0" expanded="false" />
+                <element signature="e#5036#5232#0" expanded="false" />
+                <element signature="e#5298#5352#0" expanded="false" />
+                <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+                <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
+                <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="err.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/err.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vip_list.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vip_list.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -456,7 +398,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30632412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096837945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -478,7 +420,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vip_sys.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -503,20 +452,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#57#83#0" expanded="true" />
-            <element signature="e#304#607#0" expanded="false" />
-            <element signature="e#321#572#0" expanded="false" />
-            <element signature="e#1360#1507#0" expanded="false" />
-            <element signature="e#2523#2669#0" expanded="false" />
-            <element signature="e#2730#2900#0" expanded="false" />
-            <element signature="e#2946#3261#0" expanded="false" />
-            <element signature="e#3032#3215#0" expanded="false" />
-            <element signature="e#3311#3594#0" expanded="false" />
-            <element signature="e#3397#3548#0" expanded="false" />
-            <element signature="e#3670#3761#0" expanded="false" />
-            <element signature="e#3807#4113#0" expanded="false" />
-            <element signature="e#3895#4091#0" expanded="false" />
-            <element signature="e#4157#4211#0" expanded="false" />
-            <marker date="1561794716938" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -581,9 +526,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="440">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="e#72#114#0" expanded="true" />
@@ -593,40 +546,28 @@
     </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vip_sys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="203">
+          <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
             <element signature="e#57#83#0" expanded="true" />
-            <element signature="e#304#607#0" expanded="false" />
-            <element signature="e#321#572#0" expanded="false" />
-            <element signature="e#1360#1507#0" expanded="false" />
-            <element signature="e#2523#2669#0" expanded="false" />
-            <element signature="e#2730#2900#0" expanded="false" />
-            <element signature="e#2946#3261#0" expanded="false" />
-            <element signature="e#3032#3215#0" expanded="false" />
-            <element signature="e#3311#3594#0" expanded="false" />
-            <element signature="e#3397#3548#0" expanded="false" />
-            <element signature="e#3670#3761#0" expanded="false" />
-            <element signature="e#3807#4113#0" expanded="false" />
-            <element signature="e#3895#4091#0" expanded="false" />
-            <element signature="e#4157#4211#0" expanded="false" />
-            <marker date="1561794716938" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
           </folding>
         </state>
       </provider>

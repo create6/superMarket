@@ -83,40 +83,82 @@ class VipSys(object):
 
     # 2-查看所有会员
     def view_all(self):
-        for each in self.vip_dict.values():# 加载更新后的vip字典
-            print('-'*30)
-            print(each.v_name.ljust(10),each.v_phone.ljust(15),each.v_points.ljust(10))
-
+        cs = conn1.cursor()
+        sql = "select *from vip_list"
+        cs.execute(sql)
+        data = cs.fetchall()  # 是一个元组
+        cs.close()
+        conn1.close()
+        # print(data)
+        for each in data:
+            print(each[1].ljust(10), each[2].ljust(15), str(each[3]).ljust(10))
+            '''
+            (4, 'bobo', '15912351123', 0, b'\x00')
+            (5, 'hsb', '18520395753', 0, b'\x00')
+            (6, '小定', '13710121111', 0, b'\x00')'''
     # 3-查找单个会员
     def seach_single(self):
         phone = input('请输入手机号:')
-        self.display_single(phone)
+        data=self.display_single(phone)
+        print(data[0][1].ljust(10), data[0][2].ljust(15), str(data[0][3]).ljust(10))
 
     # 3-1 显示单个会员
     def display_single(self,phone):
 
         print('-'*30)
-        print(self.vip_dict[phone].v_name.ljust(10), self.vip_dict[phone].v_phone.ljust(15),self.vip_dict[phone].v_points.ljust(10))
+        # 数据库操作2：查找单个数据
+        cs = conn1.cursor()
+        sql = "select * from vip_list where phone=\'%s\';" % (phone)
+        cs.execute(sql)
+        data = cs.fetchall()  # 是一个元组
+        cs.close()
+        conn1.close()
+        # print(data[0])  (1, '波', '18520395753', 200, b'\x00')
+        return data
+
     # 3-2 查询积分接口
     def display_point(self,phone):
         # 加载数据，  【要完成read_price 功能，需要把加载数据放在函数里面，放外面会报'keyError
-        self.load_data()
+        # self.load_data()
         # 可以加入判断是否是会员】
+        # 数据库操作2：查找单个数据
+
+        data = self.display_single(phone)
         print('-'*30)
-        return self.vip_dict[phone].v_points
+        # print(data[0][3])
+        return data[0][3]
 
     # 4-删除会员
     def del_vip(self):
         phone = input('请输入需要删除的会员手机号:')
-        if phone in self.vip_dict.keys():
-            self.display_single(phone)
-            isok = input('1:确认\n0:取消')
-            if isok == '1':
-                del(self.vip_dict[phone])
-            else:
-                return # 回到开头
-        else:
-            print('无此用户')
+
+        cs = conn1.cursor()
+        sql = "delete from vip_list where phone=\'%s\';" % phone
+        cs.execute(sql)
+        conn1.commit()  # 提交
+        cs.close()
+        conn1.close()
+
+        # try:
+        #     cs = conn1.cursor()
+        #     sql = "drop * from vip_list where phone=\'%s\';" % phone
+        #     cs.execute(sql)
+        #     conn1.commit()  # 提交
+        #     cs.close()
+        #     conn1.close()
+        # except Exception:
+        #     print("无此用户")
+
+
+        # if phone in self.vip_dict.keys():
+        #     self.display_single(phone)
+        #     isok = input('1:确认\n0:取消')
+        #     if isok == '1':
+        #         del(self.vip_dict[phone])
+        #     else:
+        #         return # 回到开头
+        # else:
+        #     print('无此用户')
 
     # 5-修改会员信息（很少用）
     def modify_vip(self):
@@ -155,5 +197,6 @@ class VipSys(object):
         exit(0)
 
 if __name__ == '__main__':
-    # VipSys().start()
-    VipSys().add_new_vip()
+    VipSys().start()
+    # VipSys().seach_single()
+    #18520395753
