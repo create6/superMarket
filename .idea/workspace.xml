@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6bec0e0-c611-4ded-af75-61f5f36bef11" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test01.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_mysql2excel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vip_list.txt" afterPath="$PROJECT_DIR$/vip_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vip_sys.py" afterPath="$PROJECT_DIR$/vip_sys.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/superMarket$vip_sys.coverage" NAME="vip_sys Coverage Results" MODIFIED="1561799020448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superMarket$main.coverage" NAME="main Coverage Results" MODIFIED="1561778693842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/superMarket$test_mysql2excel.coverage" NAME="test_mysql2excel Coverage Results" MODIFIED="1561820702220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,29 +24,107 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vip_sys.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vip_sys.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vip_sys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+            <state relative-caret-position="132">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="62" />
               <folding>
-                <element signature="e#57#83#0" expanded="true" />
+                <element signature="e#0#38#1" expanded="false" />
+                <element signature="e#276#5352#0" expanded="false" />
+                <element signature="e#304#607#0" expanded="false" />
+                <element signature="e#321#572#0" expanded="false" />
+                <element signature="e#647#795#0" expanded="false" />
+                <element signature="e#647#681#0" expanded="false" />
+                <element signature="e#741#789#0" expanded="false" />
+                <element signature="e#836#955#0" expanded="false" />
+                <element signature="e#1003#1149#0" expanded="false" />
                 <element signature="e#1189#1528#0" expanded="false" />
+                <element signature="e#1360#1507#0" expanded="false" />
+                <element signature="e#1578#2136#0" expanded="false" />
+                <element signature="e#2012#2025#0" expanded="false" />
+                <element signature="e#2185#2647#0" expanded="false" />
+                <element signature="e#2406#2642#0" expanded="false" />
+                <element signature="e#2486#2642#1" expanded="false" />
+                <element signature="e#2694#2843#0" expanded="false" />
+                <element signature="e#2907#3228#0" expanded="false" />
+                <element signature="e#3290#3538#0" expanded="false" />
+                <element signature="e#3290#3345#0" expanded="false" />
+                <element signature="e#3584#4396#0" expanded="false" />
+                <element signature="e#3813#3819#0" expanded="false" />
                 <element signature="e#4452#4735#0" expanded="false" />
                 <element signature="e#4538#4689#0" expanded="false" />
                 <element signature="e#4811#4902#0" expanded="false" />
                 <element signature="e#4948#5254#0" expanded="false" />
                 <element signature="e#5036#5232#0" expanded="false" />
                 <element signature="e#5298#5352#0" expanded="false" />
-                <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
-                <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
-                <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
+                <element signature="e#5385#5448#0" expanded="false" />
+                <element signature="e#5406#5431#0" expanded="false" />
+                <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+                <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+                <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test_mysql2excel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_mysql2excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding>
+                <marker date="1561821133826" expanded="true" signature="435:449" ph="select * fro... movierank" />
+                <marker date="1561821133826" expanded="true" signature="435:457" ph="select * fro... vip_list" />
+                <marker date="1561821133826" expanded="true" signature="2149:2362" ph="create table... test01" />
+                <marker date="1561821133826" expanded="true" signature="2550:2605" ph="alter table test01... " />
+                <marker date="1561821133826" expanded="true" signature="2778:2829" ph="insert into test01... " />
+                <marker date="1561821133826" expanded="true" signature="2796:2829" ph="insert into movierank... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Row.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/xlwt/Row.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Workbook.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/xlwt/Workbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="708" column="29" lean-forward="false" selection-start-line="708" selection-start-column="29" selection-end-line="708" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>movierank</find>
+      <find>xlsx</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>test01</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +137,7 @@
         <option value="$PROJECT_DIR$/repertory_manager_sys.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/vip_sys.py" />
+        <option value="$PROJECT_DIR$/test_mysql2excel.py" />
       </list>
     </option>
   </component>
@@ -88,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -103,7 +184,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,7 +193,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v12.4.0/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.vip_sys">
+  <component name="RunManager" selected="Python.test_mysql2excel">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,6 +226,24 @@
       <module name="superMarket" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vip_sys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_mysql2excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="superMarket" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_mysql2excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -364,14 +462,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.vip_sys" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_mysql2excel" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.vip_sys" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_mysql2excel" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vip_sys" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -390,19 +490,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1297" height="601" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14262949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14422311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.096837945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7687747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0039525693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1284585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -420,14 +520,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/vip_sys.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -440,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#72#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,17 +541,39 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#57#83#0" expanded="true" />
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
             <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
             <element signature="e#4452#4735#0" expanded="false" />
             <element signature="e#4538#4689#0" expanded="false" />
             <element signature="e#4811#4902#0" expanded="false" />
             <element signature="e#4948#5254#0" expanded="false" />
             <element signature="e#5036#5232#0" expanded="false" />
             <element signature="e#5298#5352#0" expanded="false" />
-            <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
-            <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
-            <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -478,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#72#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,17 +662,491 @@
         <state relative-caret-position="203">
           <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
-            <element signature="e#57#83#0" expanded="true" />
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
             <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
             <element signature="e#4452#4735#0" expanded="false" />
             <element signature="e#4538#4689#0" expanded="false" />
             <element signature="e#4811#4902#0" expanded="false" />
             <element signature="e#4948#5254#0" expanded="false" />
             <element signature="e#5036#5232#0" expanded="false" />
             <element signature="e#5298#5352#0" expanded="false" />
-            <marker date="1561798710023" expanded="true" signature="1751:1816" ph="insert into vip_list... " />
-            <marker date="1561798710023" expanded="true" signature="2988:3029" ph="select * fro... vip_list" />
-            <marker date="1561798710023" expanded="true" signature="3660:3699" ph="delete from " />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7040">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_manager_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superMarket_zj.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repertory_manager_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7040">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_manager_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superMarket_zj.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repertory_manager_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vip_sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#38#1" expanded="false" />
+            <element signature="e#276#5352#0" expanded="false" />
+            <element signature="e#304#607#0" expanded="false" />
+            <element signature="e#321#572#0" expanded="false" />
+            <element signature="e#647#795#0" expanded="false" />
+            <element signature="e#647#681#0" expanded="false" />
+            <element signature="e#741#789#0" expanded="false" />
+            <element signature="e#836#955#0" expanded="false" />
+            <element signature="e#1003#1149#0" expanded="false" />
+            <element signature="e#1189#1528#0" expanded="false" />
+            <element signature="e#1360#1507#0" expanded="false" />
+            <element signature="e#1578#2136#0" expanded="false" />
+            <element signature="e#2012#2025#0" expanded="false" />
+            <element signature="e#2185#2647#0" expanded="false" />
+            <element signature="e#2406#2642#0" expanded="false" />
+            <element signature="e#2486#2642#1" expanded="false" />
+            <element signature="e#2694#2843#0" expanded="false" />
+            <element signature="e#2907#3228#0" expanded="false" />
+            <element signature="e#3290#3538#0" expanded="false" />
+            <element signature="e#3290#3345#0" expanded="false" />
+            <element signature="e#3584#4396#0" expanded="false" />
+            <element signature="e#3813#3819#0" expanded="false" />
+            <element signature="e#4452#4735#0" expanded="false" />
+            <element signature="e#4538#4689#0" expanded="false" />
+            <element signature="e#4811#4902#0" expanded="false" />
+            <element signature="e#4948#5254#0" expanded="false" />
+            <element signature="e#5036#5232#0" expanded="false" />
+            <element signature="e#5298#5352#0" expanded="false" />
+            <element signature="e#5385#5448#0" expanded="false" />
+            <element signature="e#5406#5431#0" expanded="false" />
+            <marker date="1561798710023" expanded="false" signature="1751:1816" ph="insert into vip_list... " />
+            <marker date="1561798710023" expanded="false" signature="2988:3029" ph="select * fro... vip_list" />
+            <marker date="1561798710023" expanded="false" signature="3660:3699" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="708" column="29" lean-forward="false" selection-start-line="708" selection-start-column="29" selection-end-line="708" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/django_py3/lib/python3.5/site-packages/xlwt/Row.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_mysql2excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <marker date="1561821133826" expanded="true" signature="435:449" ph="select * fro... movierank" />
+            <marker date="1561821133826" expanded="true" signature="435:457" ph="select * fro... vip_list" />
+            <marker date="1561821133826" expanded="true" signature="2149:2362" ph="create table... test01" />
+            <marker date="1561821133826" expanded="true" signature="2550:2605" ph="alter table test01... " />
+            <marker date="1561821133826" expanded="true" signature="2778:2829" ph="insert into test01... " />
+            <marker date="1561821133826" expanded="true" signature="2796:2829" ph="insert into movierank... " />
           </folding>
         </state>
       </provider>
