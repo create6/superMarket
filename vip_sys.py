@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 '''会员管理系统
 #-*- coding : utf-8 -*-
 

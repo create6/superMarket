@@ -75,8 +75,6 @@ wbk.save('test01.xlsx')                   #保存
 #         mycellvalue = sheet.cell(i,j).value
 #         print(mycellvalue,end='\t')
 #     print()
-#
-#
 
 
 
@@ -87,7 +85,7 @@ wbk.save('test01.xlsx')                   #保存
 # #创建数据表
 # def createALL():
 #     conn = getCon()
-#     ###sql ='''create ###table test01(                     #这一段为sql语句，创建数据表
+#     sql ='''create table test01(                     #这一段为sql语句，创建数据表
 #     moviename varchar(255) not null primary key,
 #     boxoffice float not null,
 #     percent float not null,
